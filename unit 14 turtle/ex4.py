@@ -3,7 +3,7 @@ import math
 # Setup
 s = turtle.Screen()
 s.setup(width=600, height=400)
-s.bgcolor("white")
+s.bgcolor("black")
 
 # Turtle
 t = turtle.Turtle()

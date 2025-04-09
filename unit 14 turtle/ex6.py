@@ -20,12 +20,11 @@ t2.width(25)
 t.circle(100, -200)
 
 # Save current position and heading for later
-x, y = t.pos()
-heading = t.heading()
+
 
 # Draw the part to be changed to yellow
 t.color("yellow")
-t.begin_fill()
+# t.begin_fill()
 t.circle(100, 90)
 t.left(90)
 t.forward(90)
@@ -33,8 +32,8 @@ t.end_fill()
 
 # Reset to original position and heading
 t.penup()
-t.goto(x, y)
-t.setheading(heading)
+
+
 t.pendown()
 
 # Draw the remaining part

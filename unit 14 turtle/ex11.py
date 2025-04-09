@@ -7,7 +7,7 @@ pen = turtle.Turtle()
 # Move to the starting position
 pen.speed(1)
 pen.penup()
-pen.goto(-200, 0)
+pen.goto(-200, 90)
 pen.pendown()
 
 # Draw a square with gaps between segments

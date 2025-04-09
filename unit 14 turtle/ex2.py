@@ -1,7 +1,7 @@
 import turtle
 
 window = turtle.Screen()
-window.screensize(500, 500)
+window.setup(height=500,width= 500)
 pen = turtle.Turtle()
 
 # Draw vertical line

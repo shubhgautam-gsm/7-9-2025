@@ -28,7 +28,7 @@ def draw_tree(branch_length, level):
     pen.right(angle)
     draw_tree(branch_length * scale_factor, level - 1)
     pen.left(2 * angle)
-    draw_tree(branch_length * scale_factor, level - 1)
+    draw_tree(branch_length * scale_factor, level - 1)s
     pen.right(angle)
     pen.backward(branch_length)
 

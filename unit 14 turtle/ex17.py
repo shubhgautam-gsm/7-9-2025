@@ -140,3 +140,4 @@ t.hideturtle()
 
 # Keep the window open until closed manually
 turtle.done()
+# rgb(x,y,z)
