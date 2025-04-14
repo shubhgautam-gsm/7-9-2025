@@ -19,7 +19,7 @@ def draw_face():
     turtle.penup()
     turtle.goto(-40, 20)
     turtle.pendown()
-    turtle.fillcolor("white")
+    turtle.fillcolor("yellow")
     turtle.begin_fill()
     turtle.circle(20)
     turtle.end_fill()
@@ -32,7 +32,7 @@ def draw_face():
     turtle.circle(20)
     turtle.end_fill()
 
-    # Draw left pupil
+    # Draw left pupil(kiki)
     turtle.penup()
     turtle.goto(-30, 30)
     turtle.pendown()
@@ -41,9 +41,9 @@ def draw_face():
     turtle.circle(10)
     turtle.end_fill()
 
-    # Draw right pupil
+    # Draw right pupil(kiki)
     turtle.penup()
-    turtle.goto(50, 30)
+    turtle.goto(30, 30)
     turtle.pendown()
     turtle.begin_fill()
     turtle.circle(10)
@@ -65,13 +65,7 @@ def draw_face():
     turtle.circle(40, 180)
     turtle.penup()
 
-    # Draw hair
-    turtle.goto(-100, 50)
-    turtle.pendown()
-    turtle.width(5)
-    turtle.goto(100, 50)
-    turtle.penup()
-
+   
 def generate_face():
     turtle.reset()
     draw_face()
