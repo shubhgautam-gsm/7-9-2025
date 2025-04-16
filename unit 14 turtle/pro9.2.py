@@ -5,7 +5,7 @@ window.screensize(500, 500)
 pen = turtle.Turtle()
 
 pen.color("red")
-pen.shape('turtle') # ‘arrow’, ‘classic’, ‘turtle’ or ‘circle’
+pen.shape('circle') # ‘arrow’, ‘classic’, ‘turtle’ or ‘circle’
 
 
 angles = [0.0, 144.0, 288.0, 72.0, 216.0]

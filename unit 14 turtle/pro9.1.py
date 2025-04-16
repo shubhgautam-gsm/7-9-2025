@@ -7,7 +7,8 @@ pen = turtle.Turtle()
 pen.color("red")
 
 angles = [0.0, 144.0, 288.0, 72.0, 216.0]
-
+# in stores values
+# of stores index
 for angle in angles:
     pen.setheading(angle)
     pen.backward(200)

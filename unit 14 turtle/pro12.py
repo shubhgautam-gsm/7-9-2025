@@ -5,7 +5,7 @@ window.screensize(500, 500)
 pen = turtle.Turtle()
 
 pen.color("red")
-pen.shape("")
+pen.shape("turtle")
 for x in range(1, 6):
     pen.backward(200)
     pen.left(144)

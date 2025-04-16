@@ -89,7 +89,7 @@ def draw(coordinates, mode = 1, co = (0, 0, 0), thickness = 1):
 
 def files():
     positions()
-    draw(positions.outer_face, co = (randint(213,217), randint(172,179), randint(130,169)), mode = 0)
+    draw(positions.outer_face, co = (randint(203,217), randint(172,179), randint(130,169)), mode = 0)
     draw(positions.inner_face, co = (randint(218,222), randint(127,150), randint(102,160)), mode = 0)
     draw(positions.left_ear, co = (77, 77, 77), mode = 0)
     draw(positions.outer_face2, co = (77, 77, 77), mode = 0)
