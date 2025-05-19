@@ -1,7 +1,8 @@
 # main.py
-import Employees 
+from .ITEmployees import getITNames
+from .BPOEmployees import newgetBPONames,oldgetBPONames
 
 
 # Using the functions from the package
-print(Employees.oldgetBPONames())
+print(oldgetBPONames())
 

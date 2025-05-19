@@ -1,5 +1,5 @@
 def add(a,b):
- add=a+b
+ 
  print('add is',add)
 
 def sub(a,b):
@@ -18,6 +18,7 @@ def div(a,b):
 
 
 def power(a,b):
- pow=a**b
+ sub=a**b
  print('sub is',pow)
+
 

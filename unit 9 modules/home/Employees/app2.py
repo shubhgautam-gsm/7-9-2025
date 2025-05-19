@@ -1,10 +1,10 @@
 import maths
-
+from maths import power
 
 # ready made functions in math package like sqrt(),fbs()...
 # Constants
 
-print(maths.pow(2,4))
+print(maths.power(2,4))
 
 
 
