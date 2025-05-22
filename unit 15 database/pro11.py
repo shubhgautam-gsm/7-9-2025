@@ -2,11 +2,11 @@ import mysql.connector
 
 try:
     # create connection and cursor objects
-    connection = mysql.connector.connect(host="localhost", user="root", passwd="", database="py1121")
+    connection = mysql.connector.connect(host="localhost", user="root", passwd="", database="hvc_college")
     cursor = connection.cursor()
 
     # build a query
-    query = "select * from students where fname = 'sunny'"
+    query = "select * from bca where city = 'rajkot'"
 
     # execute query
     cursor.execute(query)

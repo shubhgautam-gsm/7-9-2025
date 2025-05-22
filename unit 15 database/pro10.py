@@ -2,18 +2,20 @@ import mysql.connector
 
 try:
     # create connection and cursor objects
-    connection = mysql.connector.connect(host="localhost", user="root", passwd="", database="py1121")
+    connection = mysql.connector.connect(host="localhost", user="root", passwd="", database="hvc_college")
     cursor = connection.cursor()
 
     # build a query
-    query = "select * from students"
+    query = "select * from bca"
 
     # execute query
     cursor.execute(query)
 
     # get result from executed cursor
     result = cursor.fetchall()
-
+    #result=[(),(),()]
+    # row=[] overide   a=5 a=6 a=7  
+     
     # run loop on result and print all the data
     for row in result:
         print(row)
