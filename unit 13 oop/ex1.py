@@ -7,6 +7,8 @@ class MyClass:
 # Creating an instance of MyClass
 obj = MyClass()
 
+
+
 user_input = input('Write c for add | d for mult | e for div: ')
 
 if user_input in ['c', 'd', 'e']:

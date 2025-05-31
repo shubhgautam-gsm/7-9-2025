@@ -2,8 +2,9 @@ class InvalidEmailError(Exception):
     def __init__(self, email):
         self.email = email
 
+# email=jay@gmail.com
 def validate_email(email):
-    if '@' not in email:
+    if '@gmail.com' not in email:
         raise InvalidEmailError(email)
 
 try:

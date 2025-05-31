@@ -6,23 +6,11 @@ try:
     cursor = connection.cursor()
 
     # build a query
-    query = "select * from bca"
+    query = "select * from bca where Roll='8'"
 
     # execute query
     cursor.execute(query)
 
-    print(cursor.fetchone())
-    print(cursor.fetchone())
-    print(cursor.fetchone())
-    print(cursor.fetchone())
-    print(cursor.fetchone())    
-    print(cursor.fetchone())
-    print(cursor.fetchone())
-    print(cursor.fetchone())
-    print(cursor.fetchone())
-    print(cursor.fetchone())
-    print(cursor.fetchone())
-    print(cursor.fetchone())
     print(cursor.fetchone())
 
     connection.commit()

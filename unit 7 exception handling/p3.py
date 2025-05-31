@@ -3,10 +3,10 @@ try:
     b = int(input("Enter b: "))
     c = a / b
     print("a / b = %f"%c)
-except ZeroDivisionError:
-    print("Can't divide by zero")
-    print(Exception)
+except ZeroDivisionError as e:
+    # print("Can't divide by zero")
+    print(e)
 else:
-    print("Hi, I am the else block")
+    print("Hi, I am the else block") # when no error
 
 print("after error i am print")

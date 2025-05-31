@@ -2,7 +2,7 @@
 
 
 
-class Vehicle():
+class Vehicle(): 
 
     def start(self):
         pass

@@ -14,7 +14,11 @@ try:
     # get result from executed cursor
     result = cursor.fetchall()
     #result=[(),(),()]
-    # row=[] overide   a=5 a=6 a=7  
+    #result = [( "majiv sheikh", "rajkot",7066947730)
+    #         ,( "kajiv sheikh", "aajkot",7066947860),
+    #         ( "sajiv sheikh", "najkot",7066947837)]
+    
+    #  row=[] overide   a=5 a=6 a=7  
      
     # run loop on result and print all the data
     for row in result:
