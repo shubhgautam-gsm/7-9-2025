@@ -12,7 +12,9 @@ print(a)
 print(b)
 print(c)
 print(d)
-
+# def add(a=1,b=1):
+#  return a+b
+# print(add(11,22))
 utf8_bytes = 'A'.encode('ascii') #127 CHAR SET  
 
 # utf8_bytes = 'z'.encode('utf-8') #1M CHARACTER SET  10lakh
