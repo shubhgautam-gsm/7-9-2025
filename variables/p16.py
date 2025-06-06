@@ -1,5 +1,5 @@
 #OPERATORS IN PYTHON
-a=int(input('give value of a:'))
+a=float(input('give value of a:'))# STRING
 b=int(input('give value of b:'))
 c=a+b
 d=a-b

@@ -3,6 +3,6 @@
 # LIST CAN MODIFY I.E INSERT UPDATE DELETE
 tup = (1, "hi", "python", 2)
 tup1 = [1, "hi", "python", 2]
-tup1[2]="meet"
+tup[2]="meet"
 print(tup)
 print(tup1)

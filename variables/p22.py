@@ -6,7 +6,7 @@ the same block """
 a=1
 val1=int(input('write 1 for jay ram'))
 
-if a!=val1:
+if a!=val1:# 1 is not eqaul to  2
  b='jay shayam'
  print(b,' because you write :',val1)
 else:
