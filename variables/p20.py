@@ -1,6 +1,7 @@
 x = ["apple", "banana"]
 y = ["apple", "banana"]
-z = x
+z = x # z is a reference to x, not a copy of x
+# z stores address of x
 
 print(x is z)
 
