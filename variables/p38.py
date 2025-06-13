@@ -1,4 +1,6 @@
 var = 1
+i=''
 while var!=2:
- i = int(input("Enter the number?"))
- print ("Entered value is %d"%(i))
+ 
+ i+= input("Enter the list u want to print?")
+ print ("list is %s"%(i))

@@ -1,8 +1,9 @@
 
 for i in range(0,5):
- if i==3:
-  break 
- print(i)
+ 
+ if i==2:
+  continue #skip 2
+ print(i+1) 
 
 else:
  print("for loop is exhausted")

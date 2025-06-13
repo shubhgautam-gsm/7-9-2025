@@ -1,4 +1,4 @@
-i = 0
+i = 5
 while 1:
  print(i," ",end=""),
  i=i+1

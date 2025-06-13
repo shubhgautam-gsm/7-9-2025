@@ -1,8 +1,12 @@
-list =[1,2,3,4]
+list =[100,2333,34455,54444,55556,77774]
 count = 1
+check=int(input('enter price u want to check in list'))
+
 for i in list:
- if i == 4:
+ if i == check:
   print("item matched")
-  count = count + 1 
   break
+ 
+ count = count + 1 
+  
 print("found at",count,"location")
