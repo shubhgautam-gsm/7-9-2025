@@ -6,4 +6,4 @@ print("2st name is "+d[2])
 print(d) #keys:values
 print(d.keys())
 print(d.values())
-print(list(d)[1],d)
+print(list(d)[1],d[2])
